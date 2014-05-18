@@ -274,7 +274,10 @@ module.exports = function (grunt) {
             '*.html',
             'views/{,*/}*.html',
             'images/{,*/}*.{webp}',
-            'fonts/*'
+            'fonts/*',
+            'app.yaml',
+            '*.py',
+            'endpoints-proto-datastore/*'
           ]
         }, {
           expand: true,
