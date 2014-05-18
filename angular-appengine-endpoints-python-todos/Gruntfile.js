@@ -277,7 +277,7 @@ module.exports = function (grunt) {
             'fonts/*',
             'app.yaml',
             '*.py',
-            'endpoints-proto-datastore/*'
+            'endpoints-proto-datastore/endpoints_proto_datastore/{,**/}*'
           ]
         }, {
           expand: true,

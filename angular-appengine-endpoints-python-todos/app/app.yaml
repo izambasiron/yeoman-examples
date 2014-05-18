@@ -17,9 +17,6 @@ handlers:
   static_files: favicon.ico
   upload: favicon\.ico
 
-- url: /bower_components
-  static_dir: bower_components
-
 - url: /fonts
   static_dir: fonts
 
