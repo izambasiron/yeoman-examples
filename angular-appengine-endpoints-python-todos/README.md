@@ -26,6 +26,8 @@ $ path/to/google_appengine/dev_appserver.py app
 
 Deploy
 ------
+Get your ``appengine-app-id`` from [Google Developer Console](https://console.developers.google.com),
+and enter it in ``app/app.yaml``. Then, run:
 
 ```
 $ grunt
