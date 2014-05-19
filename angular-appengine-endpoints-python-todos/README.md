@@ -1,14 +1,19 @@
 Angular Appengine Endpoints Todos
 =================================
 
-Google Appengine Endpoints code borrowed from [Endpoints Todos Python](https://github.com/danholevoet/appengine-endpoints-angular-todos-python)
+Google Appengine Endpoints code borrowed from [Endpoints Todos Python](https://github.com/danholevoet/appengine-endpoints-angular-todos-python).
+Make sure you have ``node``, ``npm`` & ``yeoman`` installed, or follow these [instructions](http://yeoman.io/codelab/setup.html).
 
 Dev Server
 ----------
 
-Clone this repository & enter angular-appengine-endpoints-python-todos directory, then:
-
 ```
+# Clone and get submodule
+$ git clone https://github.com/izambasiron/yeoman-examples.git
+$ cd yeoman-examples
+$ git submodule update --init
+$ cd angular-appengine-endpoints-python-todos
+
 # Use 'package.json' to pull down the app's dependencies from NPM
 $ npm install
 

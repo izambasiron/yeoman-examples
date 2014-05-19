@@ -32,6 +32,9 @@ handlers:
 - url: /views
   static_dir: views
 
+- url: /bower_components
+  static_dir: bower_components
+
 libraries:
 - name: endpoints
   version: 1.0
